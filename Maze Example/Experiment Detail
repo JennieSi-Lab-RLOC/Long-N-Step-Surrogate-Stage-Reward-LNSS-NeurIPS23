@@ -1,0 +1,11 @@
+Cases:
+
+1) Without Penalty (Penalty = 0): the agent only receives a reward 1 upon reaching goal state S_5. For all other states, the agent receives 0's.
+
+2) With Penalty (Penalty = 1): the agent only receives a reward 1 upon reaching goal state S_5. For all other states, the agent receives -0.1 per stage as a penalty.
+
+N step length:
+
+N = 1 use the original reward.
+
+N > 1 use LNSS. N = 5 for best performance
