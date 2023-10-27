@@ -24,7 +24,7 @@ See other required packages:
 ## Q learning Example
 
 We first show how LNSS can benefit learning by using a simple Maze environment. To provide insight on the effect of using LNSS, we compare the performance of the original $Q$-learning with the one that the stage reward is replaced by LNSS reward. 
-![Maze Environment and Results](q_FIGURE.pdf)
+![Maze Environment and Results](Q_result.png)
 
 ## DRL Code base
 
