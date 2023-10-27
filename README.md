@@ -26,6 +26,12 @@ See other required packages:
 We first show how LNSS can benefit learning by using a simple Maze environment. To provide insight on the effect of using LNSS, we compare the performance of the original $Q$-learning with the one that the stage reward is replaced by LNSS reward. 
 [Maze Environment and results](Q_result.png)
 
+To run the experiment: 
+```python3 run_main.py```
+
+
+Note: penalty = 0 for no penalty and penalty = 1 for penalty. N = 1 for the original reward. N > 1 for LNSS and N = 5 for best result.
+
 ## DRL Code base
 
 TD3 and DDPG are based on [Auther's Code](https://github.com/sfujim/TD3). D4PG is our modified code based on TD3 and other [pytorch implementation](https://github.com/schatty/d4pg-pytorch).
