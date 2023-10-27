@@ -21,6 +21,11 @@ See other required packages:
   4. [mpi4py](https://pypi.org/project/mpi4py/)
   5. Numpy
 
+## Q learning Example
+
+We first show how LNSS can benefit learning by using a simple Maze environment. To provide insight on the effect of using LNSS, we compare the performance of the original $Q$-learning with the one that the stage reward is replaced by LNSS reward. 
+![weighing_counts](weighing_counts.png)
+
 ## DRL Code base
 
 TD3 and DDPG are based on [Auther's Code](https://github.com/sfujim/TD3). D4PG is our modified code based on TD3 and other [pytorch implementation](https://github.com/schatty/d4pg-pytorch).
