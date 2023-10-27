@@ -33,3 +33,7 @@ Target policy is TD3, LNSS N parameter is 100 and use 8 parallel actors to train
 
 ```mpirun -n 8 python3 main_DMC.py --policy="TD3" --N_step=100 --n_worker=8```
 note: if current os is windows, please use mpiexec
+
+## Discrete Cheetah Run
+
+We also provide our annotated cheetah file for reference. If you want to run, please replace the original DMC cheetah.py with ours.
